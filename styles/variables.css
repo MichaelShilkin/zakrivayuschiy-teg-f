@@ -1,1 +1,24 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
+  --card-text-weight: 400;
+  --card-title-weight: 700;
+  --accent-color-btn: #000000;
+  --stroke-color: #000000;
+  --card-min-width: 375px;
+  --card-max-width: 696px;
+  --card-relative-width: 48.3vw;
+  --article-padding-inline: clamp(0px, 25.83vw - 96.375px, 372px);
+  --article-padding-top-first: clamp(102px, 7.08vw + 50px, 102px);
+  --article-padding-top-rest: clamp(52px, 3.61vw + 25px, 52px);
+  --article-padding-bottom: clamp(52px, 3.61vw + 25px, 52px);
+  --label-stroke-color: #ffffff;
+  --background-image: repeating-linear-gradient(90deg,#d3d3d3 0 2px,transparent 2px 4px),repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a);
+  --contour-fill-color: #000;
+  --animation-fill-color: red;
+  --core-fill-color: #fff;
+  --fill-hover: var(--contour-color);
+  --fill-none: transparent;
+}
+
