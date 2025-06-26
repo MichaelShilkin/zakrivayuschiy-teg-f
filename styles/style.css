@@ -20,6 +20,7 @@
    background-image: var(--background-image);
    background-size: cover;
    background-attachment: fixed;
+   font-variation-settings: 'wght' var(--card-text-weight, 400)
 }
 .main {
    display: flex;
@@ -72,7 +73,7 @@
    display: flex;
    align-items: center;
    font-family: var(--main-font);
-   font-weight: var(--card-title-weight);
+   font-variation-settings: 'wght' var(--card-title-weight, 700);
    font-size: clamp(16px, 1.25vw, 18px);
    padding-inline: clamp(14px, 4vw, 24px);
    border-bottom: 2px solid #000;
@@ -253,7 +254,6 @@
 .card__icon-button {
    max-block-size: 38px;
    padding: 0;
-   border: none;
    background-color: transparent;
    border: 2px solid transparent;
    cursor: pointer;
