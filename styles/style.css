@@ -47,14 +47,15 @@
 .header__title {
    font-family: var(--accent-font);
    font-weight: var(--card-text-weight);
-   font-size: clamp(36px, 5vw, 65px);
+   font-size: clamp(3.06rem, 1.9062rem + 4.9231vw, 4.06rem);
    text-align: center;
+   line-height: 100%;
 }
 
 .header__subtitle {
    font-family: var(--accent-font);
    font-weight: var(--card-text-weight);
-   font-size: clamp(16px, 2.5vw, 23px);
+   font-size: clamp(0.875rem, 0.2254rem + 2.7717vw, 1.438rem);
    text-align: center;
 }
 
@@ -74,7 +75,7 @@
    align-items: center;
    font-family: var(--main-font);
    font-variation-settings: "wght" var(--card-title-weight, 700);
-   font-size: clamp(16px, 1.25vw, 18px);
+   font-size: 18px;
    box-sizing: border-box;
    padding-inline-start: 10px;
    padding: 5px 10px 3px;
@@ -115,7 +116,7 @@
 .container__description {
    display: flex;
    flex-direction: column;
-   gap: clamp(16px, 2vw, 27px);
+   gap: 27px;
    border-top: 2px solid #000;
    padding: 25px;
 }
@@ -123,8 +124,8 @@
 .article__description {
    font-family: var(--main-font);
    font-weight: var(--card-text-weight);
-   font-size: clamp(14px, 2vw, 18px);
-   padding-top: clamp(16px, 2vw, 27px);
+   font-size: 18px;
+   
 }
 
 /*Save button*/
@@ -143,10 +144,6 @@
    width: 21px;
    position: relative;
    z-index: 3;
-   mix-blend-mode: difference;
-}
-
-.card__save-button span {
    mix-blend-mode: difference;
 }
 
