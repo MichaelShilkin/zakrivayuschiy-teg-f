@@ -307,8 +307,7 @@
    padding: 10px 17px;
    inline-size: 293px;
    display: block;
-}
-
-.modal__button .modal__button__text {
    mix-blend-mode: difference;
 }
+
+
